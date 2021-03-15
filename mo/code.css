@@ -1,0 +1,39 @@
+body{
+background-color:#41b0cebd;
+text-align: center;
+color: #1b00ff;
+}
+#ses{
+	background-color: white;
+	width: 400px;	
+	padding: auto;
+	margin: auto;
+	text-align: left;
+}
+#mem{
+	background-color: white;
+	width: 940px;
+	text-align: center;
+}
+#heh{
+	background-color: white;
+	width: 340px;
+	text-align: center;
+}
+#medo{
+	background-color: white;
+	width: 675px;
+	text-align: center;
+}
+#nen{
+	height: 500px;
+}
+
+#vev{
+	height: 600px;
+	width: 400px;
+}
+#xex{
+	background-color: white;
+	width: 300px;
+}

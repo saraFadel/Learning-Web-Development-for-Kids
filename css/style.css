@@ -1,0 +1,73 @@
+body{
+  background-color: #e8e8e8;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0' gradientTransform='rotate(250,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23008080'/%3E%3Cstop offset='1' stop-color='%233bc1ff'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(326,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23ed370f'/%3E%3Cstop offset='1' stop-color='%23fff10b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='2'%3E%3Cpath d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='4' transform='' cx='500' cy='100' r='40'/%3E%3Cpath transform='' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='4'%3E%3Cpath transform='' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='8' transform='' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: hsl(232, 13%, 33%);
+}
+#container{
+  justify-content: center;
+  height: 70%;
+  margin-top: 3%;
+}
+h2{
+  /* font-size: 2em; */
+  font-weight: bolder;
+  color: hsl(232deg 13% 33%);
+}
+span{
+  color: hsl(237, 63%, 64%);
+}
+#select{
+  color: hsl(234, 14%, 74%)
+}
+#switch{
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 27px;
+  vertical-align: middle;
+}
+/* Hide radio button */
+#switch input{
+  display: none;
+}
+#packages{
+  /*width: 100%;*/
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px 0 5px 0;
+}
+.card{
+  background: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 20px 15px 20px 15px;
+  cursor: pointer;
+  height: auto;
+  margin: 1.7% 1.5px 1.7% 0;
+  min-width: 300px;
+  transition: all 0.3s ease-in-out;
+}
+.activePackage:hover{
+  background: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: white;
+  margin: 1% 0 1% 0;
+  padding-top: 1.5%;
+}
+.activePackage:hover button{
+  background: white;
+  color: hsl(233, 13%, 49%);
+}
+hr{
+  border: 1px solid hsl(240, 78%, 98%);
+  width: 80%;
+  font-size: 2em;
+}
+img{
+  border-radius: 12px;
+}
