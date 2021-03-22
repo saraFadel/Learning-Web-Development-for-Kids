@@ -10,8 +10,8 @@ body{
 }
 #container{
   justify-content: center;
-  height: 70%;
-  margin-top: 3%;
+  height: 90%;
+  margin-top: 1%;
 }
 h2{
   /* font-size: 2em; */
@@ -24,17 +24,7 @@ span{
 #select{
   color: hsl(234, 14%, 74%)
 }
-#switch{
-  position: relative;
-  display: inline-block;
-  width: 50px;
-  height: 27px;
-  vertical-align: middle;
-}
-/* Hide radio button */
-#switch input{
-  display: none;
-}
+
 #packages{
   /*width: 100%;*/
    display: flex;
@@ -49,12 +39,18 @@ span{
   padding: 20px 15px 20px 15px;
   cursor: pointer;
   height: auto;
-  margin: 1.7% 1.5px 1.7% 0;
-  min-width: 300px;
+  margin: 1.7% 10px 1.7% 0;
+  width: 400px;
   transition: all 0.3s ease-in-out;
+
+}
+@media (max-width: 890px){
+  .card{
+    margin: 1.7% 0 1.7% 0;
+  }
 }
 .activePackage:hover{
-  background: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  background: linear-gradient(90deg, hsl(0, 0%, 85%), hsl(0, 0%, 55%));
   color: white;
   margin: 1% 0 1% 0;
   padding-top: 1.5%;
@@ -70,4 +66,5 @@ hr{
 }
 img{
   border-radius: 12px;
+  width: 90%;
 }
